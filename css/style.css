@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.flex{display: flex;flex-wrap: wrap;}
+
+
+/*****************************
+header
+******************************/
+
+header{
+    padding: 50px 0;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{}
+nav{
+    max-width: 80%;
+    flex: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    padding-left: 90px;
+    display: block;
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+nav ul li a:hover{}
+
+
+/*****************************
+banner-section
+******************************/
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+/*****************************
+blog-section
+******************************/
+.blog-section{}
+article{}
+article span, article a{
+    font-size: 15px;
+    color: #848484;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+article h1{
+    font-size: 33px;
+    color: #848484;
+    font-weight: 600;
+    margin: 20px 0;
+}
+article h1 a{
+	font-size: 25px;
+	color: #848484;
+	font-weight: 600;
+	margin: 20px 0;
+	transition-duration: 0.4s;
+}
+
+article h1 a:hover{
+	color: #333;
+
+}
+
+article p{
+    font-size: 18px;
+    color: #848484;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+article a img{
+    width: 100%;
+}
+
+.post{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 20px;
+}
+
+/*****************************
+footer
+******************************/
+
+footer{
+    background-color: #F0F0F0;
+    padding: 35px 0;
+}
+.footer-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.footer-menu ul{}
+.footer-menu ul li{}
+.footer-menu ul li a{
+    padding-right: 20px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition-duration: 0.4s;
+} 
+.footer-menu ul li a:hover{
+    color: #19181896;
+} 
+
+.social-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.social-menu ul{
+    justify-content: flex-end;
+}
+.social-menu ul li{}
+.social-menu ul li span{
+    font-size: 15px;
+    color: #191919;
+    font-weight: 500;
+    text-transform: capitalize;
+} 
+.social-menu ul li a{
+    padding-left: 25px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition-duration: 0.4s;
+} 
+.social-menu ul li a:hover{
+    color: #0000007d;
+} 
+
+
+
+
+
+
+
